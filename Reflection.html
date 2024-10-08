@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Privacy Reflection</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Black beard writing.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            color: #fff; 
+        }
+
+        h1{
+            text-align: center;
+            text-shadow: black 10px 10px 10px;
+        }
+        .styled-paragraph {
+            background-color: rgba(163, 195, 199, 0.479); 
+            color: #0a0a0a;
+            font-size: 1.2em;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #00796b00;
+            width: 40%;
+            margin: 20px auto;
+            white-space: pre-wrap;
+        }
+        footer{
+            background-color: rgba(72, 255, 0, 0.507);
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20px;
+            color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 50%;
+        }
+        #word-count{
+            font-weight: bolder;
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Reflection on the Data Privacy and Awareness Campaign</h1>
+
+    <div id="output" class="styled-paragraph"></div>
+
+    <py-script>
+        # Python code to create and display HTML content
+
+        # Define the content of the paragraph
+        paragraph = """As I reflect on the importance of data privacy, cybersecurity, and awareness on what the they said in the stage in our increasingly digital world, I realize just how crucial these elements are to our daily lives and in my course. Every day, we engage with technology in various ways, whether it’s checking social media, shopping online, or even using apps for communication. While these activities bring convenience and connectivity, they also expose us to significant risks, reminding me of the pressing need to understand and prioritize our digital safety.
+
+        One of the first few things that stand out to me is data privacy. It’s eye-opening to think about how much personal information we share online without fully realizing the implications. Our names, email addresses, and even financial details are often collected by companies that may not prioritize our privacy. This makes me more conscious of what I share and with whom. Data breaches seem to happen more frequently now, and the consequences for individuals can be severe, including identity theft and financial loss. It’s clear to me that understanding data privacy is not just about knowing how our data is handled; it’s about taking responsibility for our own information and being proactive in protecting it.
+        
+        Then there’s cybersecurity, which feels like an ever-evolving battlefield. The threats posed by cybercriminals, including phishing scams and malware attacks, can feel overwhelming at times. I often find myself wondering how safe my personal data really is. Organizations must take cybersecurity seriously, as a single breach can have far-reaching consequences. This has made me appreciate the importance of businesses investing in strong security measures and creating a culture of safety. I believe that we, as consumers, also have a role to play in enhancing our cybersecurity by using strong passwords and being vigilant against suspicious activity.
+        
+        Most importantly, I’ve come to understand the power of awareness in navigating this digital landscape. Awareness campaigns can significantly impact how people perceive data privacy and cybersecurity. They educate individuals about the risks and offer practical solutions to mitigate those risks. For instance, I’ve learned about the importance of recognizing phishing attempts and enabling two-factor authentication for my online accounts. This newfound knowledge empowers me to take control of my digital life and protect myself from potential threats.
+        
+        It’s also important to acknowledge that awareness should reach everyone, regardless of their age or technological proficiency. Schools, community organizations, and businesses must work together to promote online safety. This collaborative effort can create a more informed public, equipped to make better decisions about their digital interactions.
+        
+        As I conclude my reflection, I recognize that data privacy, cybersecurity, and awareness are interconnected elements that we must prioritize in our lives. Understanding these concepts helps me navigate the digital world with confidence and responsibility. By being aware of the risks and taking proactive measures to protect my information, I can contribute to a safer online environment for myself and others. Ultimately, it is our collective responsibility to ensure that technology enhances our lives without compromising our safety.
+        """
+
+        output_element = Element("output")
+        output_element.write(paragraph)
+    </py-script>
+    <footer>
+        <p>Author: Rai Tamondong</p>
+        <p>Word Count: <span id="word-count">506</span></p>
+    </footer>
+
+</body>
+</html>
+
+<!--
+*??????%%%%%%%S%%%%%SSSSSSSSSSSSSSSSSSSSSSSS####@@@@@###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
++*+;;+;*%%%%%%%%%%%%SSSSSSSSSSSSSSSSSSSSSS%S###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
++++++;;??%%%%%%%%%%%%SSSSSSSSSSSSSSSSSSSSS%%S#@@@@@@@@@@@@@@@@@@@@@@@@@@@@##@@@#@####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+++;;;::???%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSSSS*%##@@##@@@@@@@@@@@@@@@@@@@@@@##@@@########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+++;:::,+?????%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSSS#####@@@@@#@@@@@@@@@@@@@@@@@###@######@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@
+++;:::,;?*????%%%%%%%%%%%%%SSSSSSSSSSSSSSSSSS####@@@@##@@@@@@@###@@@@############@@@@@@#######@@###@@@@@@@@@@@@@@@@@@@@@
+++;:,:,:***?????%%%%%%%%%%%%SS%SSSSSSSSSSSSSS%##@@@##@@@@@@##@@@@@@######@@@@@@########@@####@@@@@#@@@@@@@#@@@@@@@@@@@@@
+++;:,:,,+**?????????%%%%%%%%%%%SSSSSSSSSSSSS%?##@@##@@@@@@@@@@@@@@@####@@#@@@#########@@@######@@@@@@@@@@##@@@@@@@@@@@@@
+++;:,::,;***?????????%%%%%%%%%%%SSSSSSSSSSSS%?####@@@@@##@@@@@@@@@#####@@########@##@##@#######@@@@@@@#@@##@@@@@@@@@@@@@
++;;:,:;,:****???**??????%%%%%%%%%%%%SS%SSSSS?*%S#@@@###@@@@@@@@@#SSSS###@#####S##@@@###########@@@@@@##@@#@@@@@@@@@@@@@@
+++;:,:;:,+?**?*****??????%%%%%%%%%%%%%%%SSS%*%###@####@@@@@@@@#%%%SS#######@SS####@#@#########@##@##@#@@@#######@@@@@@@@
+++;;:,+;,:*??******????????%%%%%%%%%%%%%%SS?*#######@@@@##@@S%%SSSSSS###S###SS##############@@###@##@##@@@@####S#@@@@@@@
+++;;:,;;:,;??*****???????????%%%%%%%%%%%%SSS*?SS%S#@@####@#%%##SS%%%%%%%%#@#%S###@#######@@@@@#@@@#####@@@@#####@@@@@@@@
+++;;:,:;;::*?****??????????????%%%%%%%%%%SSSS%*+?#@######S%%##S%%%%%%%S####%?%SS#######@#@@###@@#@@@@@##@@@@##@@@@@@@@@@
+++;::,,;;;:;****???????????????%??%%%%%%%%SSSS*+#@##@@#S%S%S@S%%%%%%%SSSS%%%%%%%%SSS##########@@###@@##@@#@@@#@@@@@@@@@@
+++;::,,:;;::;***?????????????%?%%??????%%SSSSSS?S#@@#S%%S%%#@S%%%%%SSSSSS%%%%%%%%%%S##%S####@##@##@@@@@@@@@@@@@@@@@@@@@@
++++:::,,:;:::;**???????????????%%%????%%%%SSSSS%?##%?%%%S%S@#SSSSSSSS##SSS%%%%SSSSS%%SS%SS###S#@##@@@@@@@@@@@#@@#@@@@###
+;++;::,.,:::::+?????????????????**??%%%%%%SSSSSSSSS%+;*S%%#@#S#SSSSS##S%S%%%%%%SSSS%%S%%%S####@@###@@@@####@@##@@@@@###@
+;++;;::,.,,::::+??????????????*;+*%%%%%%%%SSSSSSSSSSS?*?%#@#S#??%%SS%S%%%%%%%%%%%%%SS%SS######@@#@@@@@S##SS#@@#@@@@@##@@
+;+++;::,,.,,::::+?????*?????**+*?%%%%%%%%%%SSSSSSSSSSSS+S@@#S#%?%#S*S%%%%%%%%%%%%SSSSSSS##########@@@@##SS#S#@@@@@@#####
+;;;;;;:,,,,,,::::*????***?****??%%%%%%%%%%%SSSSSSSSSSSS%*%*+SS####SSSSS%%%%%%%%SSSSSSSSS#@@###SS###@@@@#SS####@@@@@#####
+;;+++;;:::,,,,::::+???***++**??????%%%%%%%%%SSSSSSSSSSSSS%%++S#SSS###%%%%%%%SSSSSSSSSS##@@###SSSS###@@###SS##@#@@@@#SSSS
+;;;;+++;::,,,,,::,:*??*+++***??????%%%%%%%%%%%SSSSSSSSSSSSS*;SSSS%SSS%%%%%SSSSSSSSSSS##@#S##SSSSSS###@@##S###S#@@@@#SS%%
+;;;;;;+;;::,,,.,::,;*+++******?????%%%%%%%%%%%SSSSSSSSSSSS?:%#SS%%%%SSS%SSSSSS#SSSSS###SS#SSSSSSSSS######S#S###@@@@#SS%%
+:;:;;;;;;;:,,,,.,:,,;*********??????%%%%%%%%%%S%SSSSSSSSS%:+#SSSS%%%S%%%%%SS%%SSSS###SSS#S%SSSSSSSSS###########@@@##SS%%
+:::;;;;;;;:,,,,.,,,,:********???????%%%%%%%%%%%%%%%SSSSSS%,%#SSS%%%%%%%%%SSS%SSSS#@#SS##S%SSSSSSSSSSS##@######@@@@##SS%%
+:::::::::::,,,,..,:,,+*******??????%%%%%????%%%%SSSSSSSSSS;+SSSS%%%%%%%SS#SSSSS###SS##S%%SSSSSSSSSSSS##@@####@@@@@##SS%%
+::::::::::;::::,.,::,;*??***????????????%%%%%%%SSSSSSSSSSS?:%SSS%%%%%%SS##SSS###S%S##S%%%SSSSSSSSSS#######@@#@@@@@##SS%%
+:::::::;:;;;;::,..:,.:*?**********??%%%%%%%%%%%%SSSSSSSSSSS+*SS%%%%%%SS#####@@#%%S#S%%%%%%SS%%SSSSS#######@@@@@@@####S%%
+:::::::;;;;;;;:,..,,.,***++;++*???%%%%%%%%%%%SSSSSSSSSSSSSS?;%S%%%%S%*%%S####%%SSS#%%%%%%%%%%%SSSSS#######@@@@@@@###SSS%
+::::::::;;;;;;:,..,,.,++++***?????%%%%%%%%%%S%S%SSSSSSSSSSSS;%S%%%S%*++?S#SS%%SSSS??%%%S%%%%%%SSSSS###S#@#@@@@@@@###SSS%
+::::::::;;;;;::,..,,.,*?*****???????%%%%%%%%%%%%%SSSSSSSSSS?+SSSSSS?S?;?%%%SS#SS%*?%%SS%%%%%%%SSSSS#####@@@@@@@@@###SSS%
+:::::::::::;;:,,.,:,.:??******???????%???%%??%%%%SSSSSSSSSS;%SSSSS?S#S??%S##?++++?%%SSS%%%%%%SSSSSSS#S##@@@@@@@@@##SSSS%
+::,,:::::::;;;:,,,,..;?*******???????*?%SSSS%%?%%SSSSSSSSS+*#SSSS%SSS######S*::+?%SSSS%%%%%%SSSSSSS#####@@@@@@@@####SSSS
+,,,,:::::::;;;,,,:,.,*??******??*+*?%SSSSSSS%??%%%SSSSSSS++S#SS%%SSSS####??%%?+*%%??%%%%%%SSSSSSSS#####@@@@@S%S#####SSSS
+,,,,,::::::;;:,,,,..;????******+;*%SSSSSSSS%??%%%%%%%SSS%:?SS%%%SSSS####%;?%SSS#SS#**%%%%%SSSSSSS####@@@@@#?***??%%%%%%%
+,,,,,::::::::,,,,,.,*?????**++**%SSSSSSS%%???%%%%%%%%SSSS%???%SSSSSS###S*+%%SS#SS##S;?%SSSSSSSSSS####@@@@#?*****??%%%%%%
+,,,,.,::::;:,,,,,.,+????***++?%%SS##SS%???%%%%%%%%%SSSSSSSSSSSSSSSSS###*+?SS##SS####*+%SSSSSSSS######@@@#?*+++*??%%%%%%%
+,,,..,::::;:,,,,.,+****++*???%SSSS%%????%%%%%%%%%%%SSSSSSSSSSSSSSSS##S%*?SS#SS######%;%#SSSS########@@@@%+++*???%%?%%%%%
+,,,..::::::,::,.:+****:;?%??%SSS%%????%%%%%%%%%%%%%SSSSSSSSSSSSSSS#S?+%%%S#SS#######%:*S#S#########@@@@S*++**??????%%%%%
+,,,,::::::,::,,:+**++::+**%SSS%%???%%%%%%%%%%%%%%%%SSSSSSSSSSSSSS#%++?SSSSS#########?:;*S#########@@@@#?++++++++***?%%%%
+::::::,::::,:;+**+:;;;++?SS%???**?%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSS?;?%S##SS########SS?::;?S#####@@@@@@@S*+++;++**???*????
+:;;:;;+*;::+*???*;,+++*SS%??**??%%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSS*+?%S##SS#####SSSSS#S+;*%S@@@@@@@@@@@@?+;;+*?%%%%%%%%%??
+*??++*?%?**?????;;+**%S%??***??%%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSS?;%SS##SS###SSSSSSS###S%SS#@@@@@@@@@@##S+;*?*******?????%
+??%%%SS%%?%??*+***??SS%?*++*???%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSS?**%S##S%###SSSSS%%S######@@@@@@@@@@###%+;;;;*??%%%%?????%
+????%%S%??%??+;+???S%?*++*??????%%%%%%%%%%%SSSSSSSSSSSSSSSSSS%+%%S##%%##SSSSSS%?S########@@#@######?+::+*%%%%%%%%%%%%%%%
+???+*%%S%?%?*;+??%%?*++*??????????%%%%%%%%SSSSSSSSSSSSSSSSSSS**%S##%%##SSSSSS%?S#################%+:;*?SSSSSSSSSSSSSSS%%
+???**%SSS%%*:+??%?***?????%%%%%%%%%%%%%%%%SSSSSSSSSSSSSSSSSS?;?%S#%?##SS%SS%%?%################S;;+?%SSS#SSSSSSSSSSSSSSS
+%%%**%SSS?*;;*??*++*????%%%%%%%%%%%%%%%%%%%SSSSSSSSSS%*;;;;+*+%%#%*##SS%%%%?%S#######@@########*+?%%%S###########SSSSSSS
+%%%**%SS%*;;******?????%%%%%%%%SS%%%%SSSSS%%SSSSSS%?%;,;*??*???S%*S#SSS%%%?%######S#S??S#@###S%???%SS#########SSSSSSS%%%
+***??SS#S?;+??++?%%%%??%%%%%%%%SSSS%SSSSSSSSSS%%S#%*+?*?%SS?%%%S+%#SSS%??%S#####%::*,,;??**?????%SS##########SSSSSSSS%%%
+%?*?S####S*?%?*+%S%%%%%%%%%%%%%SSSSSSSSSSSSSSS*%#?+%*?SSSSSS%%%??SS%%S%%?***??***;**;+?+.,*?*SSS##########SSSSSSSSS%%%%%
+%?+?%S#####@##S%%%%%%%%%%%%%%S%SSSSSSSSSSSS%?*#@@?**?S%?SSSSSS%*SSSSS??%%SSSSS%?***?????+*?;,;*%#########SSSSSSS%%%%%%%%
+#####@@@##@@@@SSS%%%%%%%%SSSSSSSSSSSSSSSS%+;;:?SS%??%S?*?#SSS%?%SSSS%**S%#SSSSS##S%%%SS####++*?%S#######SSSSS%%%%%%%%%%%
+#@@@@@@@###@@@@##S%SS%%%SSSSSSSSSSSSSSSS*,:?%:;*??%%S##S%%*SS%%S##S%%%?%%S##%S#S###########SSSS?+*%S###SSSSS%%%%%%%%%%%%
+#@@@@######SSS#@@@#####SSSSSSSSSSSSSSSSS:,*%;,:+?%SS##SSS?%%S%S#@#S???%%%SS#SS##S##############?+*%SS#SSSSSS%%%%%%?%%%%%
+#@##SS%%%SS+:+S@@@@@#?##SSSSSSSSSSSSSSS?::?;,:*?%SSSS#SSSS%SS%#@#%?*?%%SSSS##S##SSSS###########SSSS%S#SSSSS%%%%%%+?SS%%%
+@@@########SS#@@@@@@@#%##%SSSSSSSSSSS%+:*+*;,;?%%SSSSS######SS@@S?**?%%S#####%####SSS#######SSSS#SS?*%S#SS%%%%%%+*SS%%%%
+@@@@@@@@@@@@@@@@@@@@@@###S%SSSSSSSSS*,:?%S%?::?%%SS##SS#@@#SS@@#%????%S###S#####SSSSSS#####SSSSS#SSS%S%SSS%%%%???SS%%SSS
+#@@@@@@@####@@@####@@#@##S?????????*,,*%SSS#%;+?%%SS##S#@@#S#@#%**??%S###S######SSSSS####SSSSSSSSSSS%%%SS%%%%%?%SSSSSSSS
+##@@@@#############@@####%?????????*,:?S%%S##%;*?%%S##SS@@##@S%???%%%S#########SSSS#####SSSSSSSSSSSS%*?%%S%SSSSS#SSS####
+#S################@@#SS#S*??????????;,*%?%##%%+:*?%SSSS#@@###S%%%%%SS####@##SSSSSS#####SSSSSSSSSSSS%%SSSS#SSSSSSS#######
+################@@@@S%SS************:;;?%SSSS#%:;?%%SS###@##S%*?%SS#####@#SSSSSS######SSSSSSSSS##SS%%######SSS#S########
+##########SSS#####S%?%%*********???;,*??**%S%S#S;:*?%S##@@@SS??%%S###@@##SSSS########SSSSSSSS#SSSSSS###############@@###
+####SSSSSSS######S%%%?******+******;,+%S%?##???#S:+%%S##@@@#@#####@@@##SSSS########SSSS######SSS###################@@@##
+#################%?S****+++++++*****+:+%SSS#SS%%S?:+*%##@@@#@###@@###SSSSS########################@@@#@#############@@@#
+##############SSSS%%%?****************+*%SS%%S##S%::;?%S@@@###@@@@##SSSSSS##################@@@@@@@@@@@###############@#
+#@@###########@@##SSS%??***??????????????%%S#S%%S#+,;?S#@@######@@@@#SSS######@@@@@################@@@@@@@@########@####
+@@@@@@@@@@@@@@@##S#SSS%?????????????**++*?%S###S%%%+*S#@@####SS###@@@####@@@#@@@@@@@##@@@@@@###########@@@@#############
+##@############SSSS%?*+;;++++++;;;;;:::;*%S#SSS######SS#S#######SS##@##@@@@@@@@@@@@@@@@@@@@@############################
+##############SSSSSS%%?***++;;;;;;;;;++*???S####@@@@@?S@#@#####SSSS#@#@@@@@@@@@@@@####@@#########@@@@@##################
+S##############SSSSS%%?*+;;;;;+++***++*??????%S#####S?@@#@##########@#@#@@@####SSSSSSSS###############@##############SSS
+SS################SSS?*+;;;;;;+++++**++*+++*****?%%%?@#?%S###SSSSS#########SSS%%%SSSSSSSS########################SSSSSSS
+SSS#########SSSSS%%%??++++**+++***++????*********?%%##??***??***?%%%%SSSSS%%%%SSSSSSSSSSSSSSSSS###SSSSSSS######%????%%%%
+SSSSSS#######SSSSS%%%%???*********+******??*?****??#@%%%%???***?%%%%%SSS%SSSSSSSSSSSSSSSSSSSSSS?*??%%%SSSSS%%?*+*??%SSSS
+???%%%%%SSSSSS???***%%SS%%%%??+++********?????????%@S%%?????%????%%%SSSSSSSSSSSSSSSSSSSSSSSSS?*%???%S%%%SSS%%%SSSS######
+?????**+***%?***++*+**%%SSSSS%%??????**%%?**?????%#%?%%%%%SSS%%%%%%%%%%SSSSSSSSSSSSSSSSSSSSS%%%##SSS####SSSSSS##########
+*****************++++***??%SSS%%%%%%%%??%??????%%SSSSS%SSS###@###SSS%%%%SSSSSSSSSSSSSSSSSSSSS##################SSS##SSSS
+******+++*++*++++**++******?%%%SSSS##SS%%????%%%???????%%%S%%%%%SS########################################SS%%???%%%SSSS
+***+*+++++++++;+++***?*******???%%%%%%SSS%%%%%%%SSSSSSS%%%%??%%%%%%SSS##########S############S%*??%%?????%%%%%SSSSS#####
+**+++++++;;;;;++++++*+++**++++*****??%%%%SSSSSS#######SSS%%%%%%%%SSSSSSSSS#####SSS#######SSSSS#SSSSS%SSSSSS##SSSSS######
+-->
